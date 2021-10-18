@@ -70,6 +70,64 @@ body {
   padding-left: 200px;
 }
 
+/* reservation-section  */
+.reservation-section {
+  text-align: center;
+  background: rgba(51, 48, 48, 0.5);
+  height: 600px;
+  color: white;
+}
+
+.login-box {
+  width: 100%;
+  height: 420px;
+
+  color: #fff;
+  top: 30%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.login-box p {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.932);
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 200px;
+  background: #ab6d23;
+  color: #fff;
+  font-size: 18px;
+}
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #39dc79;
+  color: #000;
+}
+
 /*  offer section */
 
 .offer-section-title {
@@ -77,4 +135,18 @@ body {
 }
 .offer-img {
   width: inherit;
+}
+
+#hot-coffee {
+  visibility: visible;
+}
+
+/* #cold-coffee {
+  visibility: hidden;
+} */
+
+#cold-coffee img {
+  margin-top: 0;
+  padding-right: 50px;
+  width: 90%;
 }
