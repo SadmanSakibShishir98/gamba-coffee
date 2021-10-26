@@ -47,8 +47,8 @@ body {
   margin-top: 400px;
   margin-left: 40%;
   width: 100%;
-  height: 500px;
-  margin-bottom: 300px;
+  height: 100%;
+  margin-bottom: 500px;
 }
 
 .aboutUs-title {
@@ -65,13 +65,16 @@ body {
 }
 
 .about-img img {
-  width: 0%;
+  width: 50%;
 
   padding-left: 200px;
 }
 
 /* reservation-section  */
 .reservation-section {
+  display: flex;
+  flex-direction: column;
+
   text-align: center;
   background: rgba(51, 48, 48, 0.5);
   height: 600px;
@@ -139,14 +142,28 @@ input[type="number"] {
 
 #hot-coffee {
   visibility: visible;
+  text-align: justify;
 }
 
-/* #cold-coffee {
-  visibility: hidden;
-} */
+#cold-coffee {
+  /* visibility: hidden; */
+}
 
 #cold-coffee img {
   margin-top: 0;
   padding-right: 50px;
   width: 90%;
+}
+
+/* promo section */
+
+.promo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 200px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
 }
